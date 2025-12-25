@@ -72,6 +72,9 @@ fi
 
 alias ls='ls -lahv --color=auto'
 alias g='git'
+alias dnf='sudo dnf install -y'
+alias tf='terraform'
+alias tfi='terraform init'
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
